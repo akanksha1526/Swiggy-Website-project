@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy-Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png"/>
+                <a href="#">Swiggy Corporate</a>
+                <a href="#">Parter with us</a>
+                <a href="#">Get the app</a>
+                <a id="signup-button" href="#">Sign Up</a>
+            </ul>
+        </nav>
+    </section>
+    <div class="container">
+        <h2 class="swiggy-login">Signup / Login Page</h2>
+        <form>
+            <input type="tel" placeholder="Enter phone number" id="number" required>
+            <br>
+            <input type="text" placeholder="Enter your name" id="name" required>
+            <br>
+            <input type="email" placeholder="Enter your mail-id" id="email" required>
+            <br>
+            <input type="password" placeholder="Enter password" id="password">
+            <br>
+            <button class="" type="submit" onclick="swiggy_login_page()">Signup Swiggy</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </div>
+        <h1 id="result"></h1>
+        <script src="./javascript/signup.js"></script>
+</body>
+</html>

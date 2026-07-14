@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: orangered;
+}
+
+section {
+    text-align: center;
+    margin: 33px;
+    gap: 10px;
+    padding: 20px
+}
+nav ul img {
+    text-align: center;
+    margin: 69px;
+    gap: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -54px;
+}
+nav ul {
+    background-color: orangered;
+    margin-right: 20px;
+    margin-top: -150px;
+}
+nav ul a {
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.location{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    padding: 20px;
+}
+.heading{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+.image {
+    width: 260px;
+    height: 189px;
+    box-shadow: 0px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 180px;
+}
+.card{
+    padding: 10px;
+    background: white;
+    margin: 292px;
+    border-radius: 20px;
+    border-style: double;
+}
+.h3{
+    font-size: 30px;
+    color: black;
+    font-size: 40px;
+    margin-top: -55px;
+}
+#signup-button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.swiggy-login{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+form {
+    background-color: white;
+    margin-left: 295px;
+    padding: 10px;
+    border-radius: 0px;
+    text-align: center;
+    width: 50%;
+    font-size: 35px;
+    margin-top: 25px;
+    border: 10px solid orange;
+    box-shadow: 6px 18px 45px 13px;
+}
