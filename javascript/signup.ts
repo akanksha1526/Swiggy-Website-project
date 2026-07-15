@@ -6,20 +6,22 @@ let swiggy_login_page = (): void => {
     .value;
 
   if (
-    typeof(number) ==="number" &&
-    typeof(name) === "string" &&
-    mail.length <= 20 &&
-    password.length==15
+    number.length == 10 &&
+    name.length ==15 &&
+    mail.includes("@") &&
+    password.length == 15 &&
+    mail.length <= 30
   ) {
-    document.getElementById("result")!.innerHTML = "Logined successfully";
     document.getElementById("result")!.innerHTML =
       `User Phone number:${number} .User Name:${name}. User Email:${mail}. User password:${password}`;
     alert("Successfully Logined into Swiggy");
-    console.log(`User Phone number:${number} .User Name:${name}. User Email:${mail}. User password:${password}`)
+    console.log(
+      `User Phone number:${number} .User Name:${name}. User Email:${mail}. User password:${password}`,
+    );
   } else {
-    alert("Please enter valid Details!")
+    alert("Please enter valid Details!");
     document.getElementById("result")!.innerHTML =
       `Phone number:${number} Must be 10 digits. Name:${name} must be letters. Email:${mail} must be less than or equal to 10 charcaters. password:${password} must be characters`;
-       console.log(`Phone number:${number} Must be 10 digits. Name:${name} must be letters. Email:${mail} must be less than or equal to 10 charcaters. password:${password} must be characters`)
+    console.log("validation failed");
   }
 };
